@@ -21,11 +21,11 @@ const Navbar = () => {
         <Image src={assets.new_logo} alt='' className='w-28 md:w-32'/>
         </a>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
-            <li><a className='font-Ovo' href="#top">Home</a></li>
-            <li><a className='font-Ovo'  href="#about">About Me</a></li>
-            <li><a className='font-Ovo' href="#serives">Serives</a></li>
-            <li><a className='font-Ovo' href="#work">My Work</a></li>
-            <li><a className='font-Ovo' href="#contact">Contact Me</a></li>
+            <li><a className='font-Ovo text-[18px] font-normal' href="#top">Home</a></li>
+            <li><a className='font-Ovo text-[18px] font-normal'  href="#about">About Me</a></li>
+            <li><a className='font-Ovo text-[18px] font-normal' href="#serives">Serives</a></li>
+            <li><a className='font-Ovo text-[18px] font-normal' href="#work">My Work</a></li>
+            <li><a className='font-Ovo text-[18px] font-normal' href="#contact">Contact Me</a></li>
         </ul>
         <div className='flex items-center gap-4'>
             <button>
@@ -42,11 +42,11 @@ const Navbar = () => {
                 <Image src={assets.close_black} alt='' className='w-5 cursor-pointer' />
             </div>
 
-        <li><a className='font-Ovo' onClick={removeMenu} href="#top">Home</a></li>
-            <li><a className='font-Ovo' onClick={removeMenu}  href="#about">About Me</a></li>
-            <li><a className='font-Ovo' onClick={removeMenu} href="#serives">Serives</a></li>
-            <li><a className='font-Ovo' onClick={removeMenu} href="#work">My Work</a></li>
-            <li><a className='font-Ovo' onClick={removeMenu} href="#contact">Contact Me</a></li>
+        <li><a className='font-Ovo ml-2 ' onClick={removeMenu} href="#top">Home</a></li>
+            <li><a className='font-Ovo ml-2 ' onClick={removeMenu}  href="#about">About Me</a></li>
+            <li><a className='font-Ovo ml-2 ' onClick={removeMenu} href="#serives">Serives</a></li>
+            <li><a className='font-Ovo ml-2 ' onClick={removeMenu} href="#work">My Work</a></li>
+            <li><a className='font-Ovo ml-2 ' onClick={removeMenu} href="#contact">Contact Me</a></li>
             
         </ul>
     </nav>
