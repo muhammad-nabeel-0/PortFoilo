@@ -16,9 +16,9 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} alt='' className='w-full '/>
     </div>
 
-    <nav className='w-full fixed px-5 lg:px-6 xl:px-[8%] py-3 flex items-center justify-between '>
+    <nav className='w-full fixed px-5 lg:px-6 xl:px-[8%] py-1 flex items-center justify-between '>
         <a href="#top">
-        <Image src={assets.new_logo} alt='' className='w-32'/>
+        <Image src={assets.new_logo} alt='' className='w-28 md:w-32'/>
         </a>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
             <li><a className='font-Ovo' href="#top">Home</a></li>
