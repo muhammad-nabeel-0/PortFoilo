@@ -28,11 +28,11 @@ const Navbar = () => {
 return (
     <>
 
-    <div className='fixed top-0 right-0 -z-10 w-11/12 translate-y-[-80%]'>
+    <div className='fixed top-0 right-0 -z-50 w-11/12 translate-y-[-80%]'>
         <Image src={assets.header_bg_color} alt='' className='w-full '/>
     </div>
 
-    <nav className={`w-full fixed px-5 lg:px-6 xl:px-[8%] py-1 flex items-center justify-between ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm":""}`}>
+    <nav className={`w-full fixed z-50 px-5 lg:px-6 xl:px-[8%] py-1 flex items-center justify-between ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm":""}`}>
         <a href="#top">
         <Image src={assets.new_logo} alt='' className='w-20'/>
         </a>
@@ -53,7 +53,7 @@ return (
             </button>
         </div>
         {/* -- mobile menu -- */}
-        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-white bg-opacity-50 backdrop-blur-lg shadow-sm transition duration-500'>
+        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 h-screen bg-white bg-opacity-95 backdrop-blur-lg shadow-sm transition duration-500'>
             <div className='absolute top-6 right-6 ' onClick={removeMenu}>
                 <Image src={assets.close_black} alt='' className='w-5 cursor-pointer' />
             </div>
