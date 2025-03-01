@@ -36,6 +36,8 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import new_logo from './new_logo.png'
+import my_logo from './my_logo.png'
+import my_dark_logo from './my_dark_logo.png'
 
 export const assets = {
     user_image,
@@ -75,7 +77,9 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    new_logo
+    new_logo,
+    my_logo,
+    my_dark_logo
 };
 
 export const workData = [
