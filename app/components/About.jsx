@@ -13,7 +13,7 @@ const About = ({isDarkMode}) => {
                 className='w-full rounded-3xl cursor-pointer hover:scale-105 duration-300'/>
             </div>
             <div className='flex-1'>
-                <p className='mb-4 '>Hello Guy's my name is muhammad Nabeel. I am Frontend Developer. I am working Code Batch in 4 Months.Throught my career, I have the privilege of collaborating with prestiagious organizations,contributing to their success and growth. Belive Our Success</p>
+                <p className='mb-4 px-6 lg:px-0'>Hello Guy's my name is muhammad Nabeel. I am Frontend Developer. I am working Code Batch in 4 Months.Throught my career, I have the privilege of collaborating with prestiagious organizations,contributing to their success and growth. Belive Our Success</p>
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {infoList.map(({icon,iconDark,title,description},index)=>(
                         <li className='border-[1px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black hover:-z-[-2px dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' 
