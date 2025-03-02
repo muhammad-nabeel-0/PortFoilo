@@ -33,7 +33,7 @@ const Services = () => {
     className='grid grid-cols-auto gap-6 my-10 '>
         {serviceData.map(({icon,title,description,link},index)=>(
             <motion.div 
-            initial={{opacity:0,y:-20}}
+            initial={{opacity:0,y:-200}}
             whileHover={{scale:1.05}}
             whileInView={{opacity:1,y:0}}
             transition={{duration:0.5,delay:0.8}}

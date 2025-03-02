@@ -48,7 +48,7 @@ const About = ({isDarkMode}) => {
                     {infoList.map(({icon,iconDark,title,description},index)=>(
                         <motion.li
                         
-                        initial={{opacity:0,x:-20}}
+                        initial={{opacity:0,x:-100}}
                         whileHover={{scale:1.05}}
                         whileInView={{opacity:1,x:0}}
                         transition={{duration:0.5,delay:0.8}}
