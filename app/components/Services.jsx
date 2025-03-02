@@ -33,9 +33,9 @@ const Services = () => {
     className='grid grid-cols-auto gap-6 my-10 '>
         {serviceData.map(({icon,title,description,link},index)=>(
             <motion.div 
-            initial={{opacity:0,y:-200}}
+            initial={{opacity:0,x:-200}}
             whileHover={{scale:1.05}}
-            whileInView={{opacity:1,y:0}}
+            whileInView={{opacity:1,x:0}}
             transition={{duration:0.5,delay:0.8}}
             key={index}
             className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-300 dark:hover:bg-darkHover dark:hover:shadow-white'>
